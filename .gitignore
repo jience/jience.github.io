@@ -1,0 +1,29 @@
+# ide
+.vscode/*
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# dependencies
+/node_modules
+*.local
+
+# production
+dist
+dist-ssr
+
+# env
+.env.local
