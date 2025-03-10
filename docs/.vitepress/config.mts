@@ -9,7 +9,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Work', link: '/work' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -19,13 +18,6 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Work',
-        items: [
-          { text: 'ETCD使用', link: '/work/ETCD使用' },
-          { text: 'MYSQL优化', link: '/work/MySQL优化' }
         ]
       }
     ],
