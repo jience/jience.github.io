@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "Alex's Blog"
+  name: "Alex's Workspace"
   text: "Welcome to My Journey of Discovery"
   tagline: Professional Video Blogger
+  image:
+    src: /logo.png
+    alt: Alex
   actions:
     - theme: brand
       text: Markdown Examples

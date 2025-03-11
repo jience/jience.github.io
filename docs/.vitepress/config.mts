@@ -3,17 +3,18 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: "/docs/",
-  title: "Alex's Blog",
+  title: "Alex's Workspace",
   description: "Discover the magical journey",
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/log-white.svg',
+    logo: '/logo.png',
     siteTitle: "Alex Zhang",
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Book', link: '/book' },
+      { text: 'Blog', link: '/blog' },
+      { text: 'Knowledge', link: '/knowledge' },
       { text: 'Contact', link: '/markdown-examples' }
     ],
 
