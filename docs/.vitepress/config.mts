@@ -29,7 +29,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/jience' }
+      { icon: 'github', link: 'https://github.com/jience' },
+      // { icon: 'twitter', link: 'https://twitter.com/' },
+      // { icon: 'facebook', link: 'https://www.facebook.com/' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/' },
+      // { icon: 'youtube', link: 'https://www.youtube.com/' },
+      { icon: 'instagram', link: 'https://www.instagram.com/' },
     ],
 
     footer: {
