@@ -3,13 +3,18 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: "/docs/",
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Alex's Blog",
+  description: "Discover the magical journey",
+  srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/log-white.svg',
+    siteTitle: "Alex Zhang",
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/about' },
+      { text: 'Book', link: '/book' },
+      { text: 'Contact', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -24,6 +29,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jience' }
-    ]
+    ],
+
+    footer: {
+      copyright: "Copyright © 2025 Alex Zhang"
+    }
   }
 })
