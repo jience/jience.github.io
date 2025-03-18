@@ -14,11 +14,19 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Blog', link: '/blog' },
-      { text: 'Knowledge', link: '/knowledge' },
+      { text: 'Knowledge', link: '/knowledge/fastapi/fastapi-database-connection-pool' },
       { text: 'Contact', link: '/markdown-examples' }
     ],
 
     sidebar: [
+      {
+        text: 'Knowlege',
+        items: [
+          { text: 'FastAPI Database Connection Pool', link: '/knowledge/fastapi/fastapi-database-connection-pool' },
+          { text: 'FastAPI And Celery', link: '/knowledge/fastapi/fastapi-and-celery' },
+          { text: 'Improving Latency of Database Calls in FastAPI', link: '/knowledge/fastapi/improving-latency-of-database-calls-in-fastapi' },
+        ]
+      },
       {
         text: 'Examples',
         items: [
