@@ -12,7 +12,7 @@ export default defineConfig({
     siteTitle: "Alex Zhang",
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
+      { text: 'About', link: '/about/resume' },
       { text: 'Blog', link: '/blog' },
       { text: 'Knowledge', link: '/knowledge/fastapi/fastapi-database-connection-pool' },
       { text: 'Contact', link: '/markdown-examples' }
