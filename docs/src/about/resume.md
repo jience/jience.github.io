@@ -1,4 +1,4 @@
-# Tim Qian
+# Alex Zhang
 
 A full-stack JS developer and open-source activist.
 

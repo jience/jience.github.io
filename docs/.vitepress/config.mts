@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // base: "/docs/",
-  title: "Alex's Workspace",
-  description: "Discover the magical journey",
+  title: "ALEX ZHANG",
+  description: "Freedom Loving Programmer",
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
-    siteTitle: "Alex Zhang",
+    siteTitle: "ALEX ZHANG",
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/resume' },
@@ -38,7 +38,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jience' },
-      // { icon: 'twitter', link: 'https://twitter.com/' },
+      { icon: 'twitter', link: 'https://twitter.com/' },
       // { icon: 'facebook', link: 'https://www.facebook.com/' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/' },
       // { icon: 'youtube', link: 'https://www.youtube.com/' },
@@ -46,7 +46,15 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "Copyright © 2025 Alex Zhang"
-    }
+      copyright: "Copyright © 2025 ALEX"
+    },
+
+    lastUpdated: {
+      text: "Last Updated",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short",
+      },
+    },
   }
 })

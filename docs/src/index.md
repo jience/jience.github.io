@@ -3,26 +3,30 @@
 layout: home
 
 hero:
-  name: "Alex's Workspace"
-  text: "Welcome to My Journey of Discovery"
-  tagline: Professional Video Blogger
+  name: "Hi, I'm Alex"
+  text: "A normal boy living his biggest, messiest dreams"
+  # text: "You don't have to live your life the way others expect"
+  tagline: Freedom Loving Programmer
   image:
     src: /logo.png
     alt: Alex
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Get to know me
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on Github
+      link: https://github.com/jience
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🏕️
+    title: Love Freedom
+    details: See the world affordably and adventurously.
+  - icon: ☕
+    title: Love Life
+    details: Choose for yourself before someone else chooses for you.
+  - icon: 📚
+    title: Love Work
+    details: One way or another, you are already self-employed.
 ---
 
